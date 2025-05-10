@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
   const color = process.env.COLOR || 'green';
-  const username = '사용자';
+  const username = '사용자1';
   res.render('index', { color, username });
 });
 
